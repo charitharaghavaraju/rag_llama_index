@@ -40,6 +40,28 @@ This repository implements a Retrieval-Augmented Generation (RAG) system using t
 
 3. Install the required libraries.
 
+    1. **rag_llama_index_1.ipynb**
+    ```sh
+    pip install llama-index llama-index-embeddings-huggingface llama-index-llms-gemini
+    pip install -q llama-index google-generativeai
+    ```
+
+    2. **rag_llama_index_2.ipynb**
+    ```sh
+    pip install llama-index llama-index-embeddings-huggingface llama-index-llms-gemini spacy
+    ```
+
+    3. **rag_llama_index_3.ipynb**
+    ```sh
+    pip install llama-index llama-index-embeddings-huggingface llama-index-llms-ollama
+    ```
+
+    4. **rag_llama_index_4.ipynb**
+    ```sh
+    pip install llama-index llama-index-embeddings-huggingface llama-index-llms-ollama
+    ```
+
+
 ## Usage
 
 ### Running the Notebooks
